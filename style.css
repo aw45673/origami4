@@ -1,0 +1,35 @@
+img{
+    border:solid;
+    border-radius:15px;
+    border-color:#45e7bf;
+    margin-left: 50px;
+}
+body{
+    background-color: #e9ddf7
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.item{
+    width: 550px;
+}
+.header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.bodyimg p{
+    justify-content:center;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+a:link{
+    color: lightsalmon;
+
+}
+a:visited{
+    color: lightseagreen;
+}
